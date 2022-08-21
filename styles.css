@@ -61,7 +61,7 @@ header {
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  padding-top: -60px;
+  padding-top: 60px;
 }
 header {
   line-height: 1;
@@ -81,7 +81,7 @@ header .profile-image:hover {
   
   background-color: #e5bcc1;
   color: black;
-  font-family: 'Lucida Handwriting' cursive;
+  font-family: 'Lucida Sans';
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -213,12 +213,10 @@ a.social:hover {
   text-align: left;
 }
 .main-image {
-  border: solid 2px pink;
+  border: solid 2px rgb(254, 254, 254);
   border-radius: 50%;
   height: 170px;
   width: 170px;
-  position: center;
-  text-align: bottom;
 } 
 .conent{
   background-color: rgb(230, 149, 111);
@@ -227,5 +225,18 @@ a.social:hover {
   padding: 3px;
   text-align: bottom;
   position: fixed;
- 
+}
+.card-page1 {
+  margin: 100px;
+  padding: 80px 100px 100px;
+  max-width: fit-content;
+  text-align: left;
+  background: #e5bcc1;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  position:relative;
+}
+.card-page1:hover {
+  border-color: #f94646;
 }
