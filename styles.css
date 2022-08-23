@@ -223,7 +223,7 @@ a.social:hover {
   max-width: fit-content;
   color: rgb(176, 120, 77);
   padding: 3px;
-  text-align: bottom;
+  text-align: center;
   position: fixed;
 }
 .card-page1 {
